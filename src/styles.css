@@ -17,6 +17,10 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #242940;
+  background-color: #ffffff;
+  font-weight: 400;
 }
 
 img,
@@ -56,9 +60,24 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+  color: #242940;
+  font-weight: 700;
 }
 
 #root,
 #__next {
   isolation: isolate;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/home/odinstudent/repos/odin-webpack-template/src/font/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/home/odinstudent/repos/odin-webpack-template/src/font/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }/*# sourceMappingURL=styles.css.map */
