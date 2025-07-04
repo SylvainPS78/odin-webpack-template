@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SylvainPS78/odin-to-do-list.git"
+    "url": "git+https://github.com/SylvainPS78/odin-webpack-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SylvainPS78/odin-to-do-list/issues"
+    "url": "https://github.com/SylvainPS78/odin-webpack-template/issues"
   },
-  "homepage": "https://github.com/SylvainPS78/odin-to-do-list#readme",
+  "homepage": "https://github.com/SylvainPS78/odin-webpack-template#readme",
   "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
