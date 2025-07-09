@@ -32,10 +32,10 @@ npm run deploy
 Go on GitHub :
 - change Default branch to "gh-pages"
 
-To save changes (on gh-pages branch) :
+To save changes (on main branch) :
 Verify git status (add . & commit if necessary)
 git checkout gh-pages && git merge main --no-edit
 npm run build
 git add dist -f && git commit -m "Deployment commit"
 npm run deploy
- 
+git checkout main
