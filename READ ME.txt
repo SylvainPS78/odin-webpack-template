@@ -26,8 +26,6 @@ npm install --save-dev webpack-dev-server
 a. install :
 npm init @eslint/config@latest
 
-b. run ESLINT :
-npx eslint yourfile.js 
 
 3. // Install PRETTIER :
 a. install :
@@ -59,4 +57,4 @@ git checkout gh-pages && git merge main --no-edit
 npm run build
 git add dist -f && git commit -m "Deployment commit"
 npm run deploy
-git checkout maindata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+git checkout main
